@@ -1,0 +1,135 @@
+.quicksand-font{
+  font-family: "Quicksand", serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+body{
+    background-color: antiquewhite;
+    margin-left: 150px;
+    margin-right: 100px;
+}
+
+
+/* nav bar heading section*/
+.head{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 20px;
+}
+.head-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 11px;
+}
+.nav-bar{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.nav-bar  a{
+    text-decoration: none;
+    
+}
+.btn{
+    background-color: rgb(235, 170, 6);
+    padding: 10px 60px;
+    font-size: 1.3em;
+    border-radius: 10px;
+    border: none;
+    color: aliceblue;
+}
+.a-1{
+color: goldenrod;
+font-size: 1.3em;
+font-weight: bold;
+}
+.a-2{
+    color: blue;
+    font-size: 1.3em;
+    font-weight: bold;
+}
+.a-3{
+color: cornflowerblue;
+font-size: 1.3em;
+font-weight: bold;
+}
+.a-4{
+color: rgb(255, 30, 0);
+font-size: 1.3em;
+font-weight: bold;
+}
+/* banner section section-1 */
+.s-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-top: 40px;
+}
+.sp-1{
+    color: gold;
+}
+.s-1-h{
+    font-size: 3.5em;
+}
+.s-1-p{
+    font-size: 1em;
+}
+.sp-2{
+color: rgb(96, 96, 201);
+}
+.btn-2{
+    background-color: black;
+    color: aliceblue;
+    padding: 10px 50px;
+    font-size: 1.6em;
+    border-radius: 10px;
+    border: none;
+}
+
+/* Standard Curriculum section-2*/
+
+/* Our Stories Section section-3  */
+
+/* footer secton */
+
+@media screen and (max-width: 576px) {
+  body{
+    margin-left: 20px;
+    margin-right: 20px;
+  }  
+.none{
+    display: none;
+}
+    
+    /* nav bar heading section*/
+.head{
+    margin: 20px 10px;
+}
+.nav-bar{
+    flex-direction: column;
+}
+    /* banner section section-1 */
+.s-1{
+    flex-direction: column-reverse;
+}
+.s-1-d-1{
+    text-align: center;
+}
+.image-container{
+    max-width: 100%;
+    margin: 0 auto;
+    padding: 10px;
+    text-align: center;
+}
+
+    /* Standard Curriculum section-2*/
+
+
+    /* Our Stories Section section-3  */
+
+
+    /* footer secton */
+}
