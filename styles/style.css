@@ -140,10 +140,11 @@ font-size: larger;
 .none{
     display: none;
 }
-main{
+.marg{
     margin-left: 10px;
     margin-right: 10px;
 }
+
     
     /* nav bar heading section*/
 .head{
