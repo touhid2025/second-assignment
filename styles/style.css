@@ -5,10 +5,12 @@
 }
 body{
     background-color: antiquewhite;
+    margin: 0;
+}
+.marg{
     margin-left: 150px;
     margin-right: 100px;
 }
-
 
 /* nav bar heading section*/
 .head{
@@ -88,20 +90,59 @@ color: rgb(96, 96, 201);
     border-radius: 10px;
     border: none;
 }
+.image{
+    width: 100%;
+}
 
 /* Standard Curriculum section-2*/
 
 /* Our Stories Section section-3  */
 
 /* footer secton */
+.foot{
+    background-color: rgb(4, 28, 161);
+    display: flex;
+    gap: 100px;
+    padding: 100px 130px;
+    margin-top: 100px;
+}
+.f-d{
+    width: 200%;
+}
+.f-d-1{
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+.f-d-2 div a{
+    text-decoration: none;
+}
+.f-d-2{
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.f-d-3{
+    display: flex;
+    gap: 15px;
+}
+.f-d-1-p{
 
-@media screen and (max-width: 576px) {
-  body{
-    margin-left: 20px;
-    margin-right: 20px;
-  }  
+font-size: larger;
+    font-weight: bolder;
+    color: aliceblue;
+}
+.white{
+    color: aliceblue;
+}
+
+@media screen and (max-width: 576px) { 
 .none{
     display: none;
+}
+main{
+    margin-left: 10px;
+    margin-right: 10px;
 }
     
     /* nav bar heading section*/
@@ -118,12 +159,6 @@ color: rgb(96, 96, 201);
 .s-1-d-1{
     text-align: center;
 }
-.image-container{
-    max-width: 100%;
-    margin: 0 auto;
-    padding: 10px;
-    text-align: center;
-}
 
     /* Standard Curriculum section-2*/
 
@@ -132,4 +167,13 @@ color: rgb(96, 96, 201);
 
 
     /* footer secton */
+    .foot{
+        flex-direction: column;
+    }
+    .f-d{
+        width: auto;
+    }
+    .foot{
+        padding: 70px 30px;
+    }
 }
