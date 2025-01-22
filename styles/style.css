@@ -22,9 +22,9 @@ body{
     display: inline-block;
     font-size: 2em;
     font-weight: bold;
-    color: red;
+    color: rgb(130, 129, 133);
     padding-left: 100%;
-    animation: scroll 30s linear infinite;
+    animation: scroll 01s linear infinite;
 }
 @keyframes scroll{
     from{
@@ -192,7 +192,8 @@ box-shadow: inset 10px 10px 70px  rgb(255, 72, 72);
 /* Our Stories Section section-3  */
 .s-3{
     margin-top: 80px;
-    background-image:url(../assets/bg.png);
+    margin-bottom: 40px;
+    background-image: url(../assets/bg.png);
     
 }
 .s-3-h{
