@@ -294,6 +294,9 @@ font-size: larger;
 
     
     /* nav bar heading section*/
+    header{
+        border-bottom: 3px solid saddlebrown;
+    }
 .head{
     margin: 30px 30px;
 }
