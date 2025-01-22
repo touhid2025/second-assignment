@@ -11,7 +11,28 @@ body{
     margin-left: 150px;
     margin-right: 100px;
 }
-
+.marquee{
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    box-sizing: border-box;
+}
+.marquee span{
+    display: inline-block;
+    font-size: 2em;
+    font-weight: bold;
+    color: red;
+    padding-left: 100%;
+    animation: scroll 60s linear infinite;
+}
+@keyframes scroll{
+    from{
+        transform: translateX(100%);
+    }
+    to{
+        transform: translateX(-100%);
+    }
+}
 /* nav bar heading section*/
 .head{
     display: flex;
