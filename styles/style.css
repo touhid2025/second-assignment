@@ -11,6 +11,7 @@ body{
     margin-left: 150px;
     margin-right: 100px;
 }
+/* marquee */
 .marquee{
     width: 100%;
     overflow: hidden;
@@ -23,7 +24,7 @@ body{
     font-weight: bold;
     color: red;
     padding-left: 100%;
-    animation: scroll 60s linear infinite;
+    animation: scroll 30s linear infinite;
 }
 @keyframes scroll{
     from{
@@ -83,6 +84,10 @@ color: rgb(255, 30, 0);
 font-size: 1.3em;
 font-weight: bold;
 }
+
+.none-1{
+    display: none;
+}
 /* banner section section-1 */
 .s-1{
     display: flex;
@@ -127,6 +132,9 @@ color: rgb(96, 96, 201);
     display: flex;
     justify-content: center;
     gap: 10px;
+}
+.s-2-d2 :hover{
+    background-color: rgb(3, 201, 135);
 }
 .box{
     width: 60px;
@@ -217,8 +225,9 @@ box-shadow: inset 10px 10px 70px  rgb(255, 72, 72);
     padding: 10px 20px;
     color: aliceblue;
     font-size: 0.9em;
-    margin-left: 60px;
-    margin-top: -100px;
+    position: relative;
+    top: -25px;
+    left: 20px;
    
 }
 .pad{
@@ -286,10 +295,15 @@ font-size: larger;
     
     /* nav bar heading section*/
 .head{
-    margin: 20px 10px;
+    margin: 30px 30px;
 }
 .nav-bar{
     flex-direction: column;
+}
+.none-1{
+    display: block;
+    width: 50px;
+    height: 50px;
 }
     /* banner section section-1 */
 .s-1{
